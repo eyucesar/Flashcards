@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Permanent+Marker" rel="stylesheet">
+  <script type="text/javascript"></script>
+</head>
+<body>
+
+  <div class="container"><br>
+    <div class="row">
+      <div class="col-sm-4 col-md-4"></div>
+      <div class="col-sm-4 col-md-4">
+        <h1 class="text-center">Pick a category, and flip cards to see the answers</h1>
+      </div>
+      <div class="col-sm-4 col-md-4"></div>
+    </div><br>
+
+    <div class='row'>
+
+      <div class="col-md-1"></div>
+
+      <div class='col-md-10'>
+        <div class="carousel slide media-carousel" id="media">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="thumbnail categoryThumbnail" id="numbers">
+                    <img src="assets/css/images/numbers.jpg" alt="numbers">
+                    <div class="caption"><h3 class="text-center">Numbers</h3></div>
+                  </div>
+                </div>          
+              <div class="col-md-3">
+                <div class="thumbnail categoryThumbnail" id="cats">
+                  <img src="assets/css/images/cats.jpg" alt="cats">
+                  <div class="caption"><h3 class="text-center">Cats</h3></div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="thumbnail categoryThumbnail" id="movies">
+                  <img src="assets/css/images/movies.jpg" alt="movies">
+                    <div class="caption"><h3 class="text-center">Movies</h3></div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="thumbnail categoryThumbnail" id="sports">
+                  <img src="assets/css/images/sports.jpg" alt="sports">
+                    <div class="caption"><h3 class="text-center">Sports</h3></div>
+                </div>
+              </div>         
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="thumbnail categoryThumbnail" id="boardGames">
+                  <img src="assets/css/images/boardgames.jpg" alt="board games">
+                    <div class="caption"><h3 class="text-center">Board Games</h3></div>
+                </div>
+              </div>          
+              <div class="col-md-3">
+                <div class="thumbnail categoryThumbnail" id="art">
+                  <img src="assets/css/images/art.jpg" alt="art">
+                    <div class="caption"><h3 class="text-center">Art</h3></div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="thumbnail categoryThumbnail" id="history">
+                  <img src="assets/css/images/history.jpg" alt="history">
+                    <div class="caption"><h3 class="text-center">History</h3></div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="thumbnail categoryThumbnail" id="computers">
+                  <img src="assets/css/images/computers.jpg" alt="computers">
+                    <div class="caption"><h3 class="text-center">Computers</h3></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a data-slide="prev" href="#media" class="left carousel-control"><</a>
+        <a data-slide="next" href="#media" class="right carousel-control">></a>
+      </div>                          
+    </div>
+
+    <div class="col-md-1"></div>
+
+    </div><br>
+
+    <div class="row" id="cardRow">
+      <div class="col-sm-12 col-md-12"></div>
+    </div>
+
+  </div>
+  
+  <br><footer class="footer text-center">&copy;2017 Ebru Yucesar</footer>
+
+  <script src="assets/javascript/main.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="assets/javascript/jquery.flip.min.js"></script>
+
+</body>
+</html>
+ 
